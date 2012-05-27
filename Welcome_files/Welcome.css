@@ -5,10 +5,14 @@
     background: transparent;
     opacity: 1.00;
 }
+.style_SkipStroke_3 {
+    background: transparent;
+    opacity: 1.00;
+}
 .style_External_630_50 {
     position: relative;
 }
-.style_External_630_151 {
+.style_External_630_46 {
     position: relative;
 }
 .style_SkipStroke {
@@ -16,14 +20,6 @@
     opacity: 1.00;
 }
 .style_SkipStroke_1 {
-    background: transparent;
-    opacity: 1.00;
-}
-.style_SkipStroke_3 {
-    background: transparent;
-    opacity: 1.00;
-}
-.style_SkipStroke_4 {
     background: transparent;
     opacity: 1.00;
 }
@@ -74,10 +70,10 @@
 .Normal {
     padding: 4px;
 }
-.Normal_External_630_50 {
+.Normal_External_630_46 {
     position: relative;
 }
-.Normal_External_630_151 {
+.Normal_External_630_50 {
     position: relative;
 }
 .Title {
@@ -118,21 +114,11 @@
     background: transparent;
     opacity: 1.00;
 }
-.graphic_shape_layout_style_default {
-    padding: 4px;
-}
 .graphic_shape_layout_style_default_External_630_32 {
     position: relative;
 }
-.graphic_textbox_layout_style_default {
+.graphic_shape_layout_style_default {
     padding: 4px;
-}
-.graphic_textbox_layout_style_default_External_337_38 {
-    position: relative;
-}
-.graphic_textbox_style_default_SkipStroke {
-    background: transparent;
-    opacity: 1.00;
 }
 .bumper {
     font-size: 1px;
