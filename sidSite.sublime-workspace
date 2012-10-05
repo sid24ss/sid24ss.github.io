@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"sideNav",
+				"resumeSideNav"
+			],
+			[
+				"resume",
+				"resumeSideNav"
+			],
+			[
 				"slown",
 				"slownessAngle"
 			],
@@ -63,7 +71,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 8321,
+				"buffer_size": 3856,
 				"line_ending": "Unix"
 			}
 		},
@@ -71,7 +79,7 @@
 			"file": "resume.html",
 			"settings":
 			{
-				"buffer_size": 4349,
+				"buffer_size": 4993,
 				"line_ending": "Unix"
 			}
 		},
@@ -79,7 +87,7 @@
 			"file": "bootstrap/css/other.css",
 			"settings":
 			{
-				"buffer_size": 75,
+				"buffer_size": 912,
 				"line_ending": "Unix"
 			}
 		},
@@ -116,6 +124,8 @@
 	},
 	"file_history":
 	[
+		"/home/siddharth/sid24ss.github.com/newindex.html",
+		"/home/siddharth/sid24ss.github.com/resume.html",
 		"/home/siddharth/rc/settings.py",
 		"/home/siddharth/Dropbox/Code/Cpp/CompSim-Snake-and-ladder.cpp",
 		"/home/siddharth/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
@@ -144,6 +154,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"data-sp",
+			"data-",
+			"affix",
+			"active",
 			"h1",
 			"Siddharth",
 			"icon-",
@@ -203,15 +217,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 8321,
+						"buffer_size": 3856,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3910,
-								3910
+								1602,
+								1602
 							]
 						],
 						"settings":
@@ -221,7 +235,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1785.0,
+						"translation.y": 416.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -231,15 +245,15 @@
 					"file": "resume.html",
 					"settings":
 					{
-						"buffer_size": 4349,
+						"buffer_size": 4993,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1203,
-								1203
+								1285,
+								1285
 							]
 						],
 						"settings":
@@ -249,7 +263,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1206.0,
+						"translation.y": 51.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -259,15 +273,15 @@
 					"file": "bootstrap/css/other.css",
 					"settings":
 					{
-						"buffer_size": 75,
+						"buffer_size": 912,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5,
-								5
+								263,
+								263
 							]
 						],
 						"settings":

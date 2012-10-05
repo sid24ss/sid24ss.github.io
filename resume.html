@@ -6,99 +6,108 @@
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="bootstrap/css/other.css" rel="stylesheet">
     <!-- Enable fluid response -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <!-- <link href="assets/css/bootstrap-responsive.css" rel="stylesheet"> -->
 
     <script src="bootstrap/js/jquery-latest.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
   </head>
-  <body>
-     <div class="navbar navbar-fixed-top navbar-inverse">
-        <div class="navbar-inner">
-          <div class="container">
-            <a class="brand" href="#">Siddharth Swaminathan</a>
-            <ul class="nav">
-              <li class="active"><a href="#aboutme"><i class="icon-home icon-white"></i> Home</a></li>
-              <li><a href="#">Resume</a></li>
-              <li><a href="#">Link</a></li>
-            </ul>
-          </div>
+  <body data-spy="scroll" data-target=".sideNav">
+    <div class="navbar navbar-fixed-top navbar-inverse">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="#home">Siddharth Swaminathan</a>
+          <ul class="nav" id="mainTabs">
+            <li><a href="index.html"><i class="icon-home icon-white"></i> Home</a></li>
+            <li class="active"><a href="resume.html"><i class="icon-list-alt icon-white"></i> Resume</a></li>
+            <!-- <li><a href="#">Link</a></li> -->
+          </ul>
         </div>
+      </div>
     </div>
-    <div id="content" class="container" data-spy="scroll" data-target=".leftcolumn">
+    <div class="container">
       <div class="row">
-        <div class="span3 leftcolumn">
-          <!--Sidebar content-->
-          <ul class="nav nav-pills nav-list nav-stacked">
-            <li class="active">
-                <a href="#aboutme">About me</a>
+        <div class="span3 sideNav">
+          <ul id="resumeSideNavBar" class="nav nav-pills nav-stacked affix">
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#acadAchievements">Scholastic achievements</a>
+            </li>
+            <li>
+                <a href="#research">Research experience</a>
             </li>
             <!-- <li><a href="#">...</a></li> -->
             <!-- <li><a href="#">...</a></li> -->
           </ul>
         </div>
         <div class="span9">
-          <!--Body content-->
-          <div id="aboutme" class="row">
-            <div class="span5">
-              <h3>Siddharth Swaminathan</h3>
-              <p>
-                Senior Undergraduate<br>
-                <a href="http://mech.iitm.ac.in/" target="_blank">Department of Mechanical Engineering</a><br>
-                <a href="http://www.iitm.ac.in/" target="_blank">Indian Institute of Technology, Madras</a><br>
-                <br>
-              </p>  
-              <div class="control-group">
-                <h5>Contact</h5>
-                <table class="table table-bordered table-hover">
-                  <tr>
-                    <td>sid24ss [@] gmail [.] com</td> <td><a href="mailto:sid24ss@gmail.com"><i class="icon-envelope"></i></a></td>
-                  </tr>
-                  <tr>
-                    <td>me09b053 [@] smail [.] iitm [.] ac [.] in</td> <td><a href="mailto:me09b053@smail.iitm.ac.in"><i class="icon-envelope"></i></a></td>
-                  </tr>
-                  <tr>
-                    <td>+91 988-499-4164</td> <td><i class="icon-signal"></i></td>
-                  </tr>
-                </table>
-
-                <!-- <div class="controls">
-                  <div class="input-prepend">
-                    <span class="add-on"><i class="icon-envelope"></i></span>
-                    <span class="add-on">sid24ss [at] gmail [dot] com</span>
-                  </div>
-                </div>
-                <div class="controls">
-                  <div class="input-prepend">
-                    <span class="add-on"><i class="icon-envelope"></i></span>
-                    <span class="add-on">me09b053 [at] smail [dot] iitm [dot] ac [dot] in</span>
-                  </div>
-                </div> -->
-              </div>
-              <div class="control-group">
-                <h5>Resume</h5>
-                <table class="table table-bordered table-hover">
-                  <tr>
-                    <td>Online version</td> <td><a href="#"><i class="icon-list-alt"></i></a></td>
-                  </tr>
-                  <tr>
-                    <td>Downloadable version</td> <td><a href="SiddharthSwaminathan-Resume.pdf"><i class="icon-file"></i></a></td>
-                  </tr>
-                </table>
-              </div>
-              <h5>Research interests</h5>
+          <section id="education">
+            <h3>Education</h3>
+            <table class="table table-bordered">
+              <tr>
+                <th>Program</th>  <th>Institution</th>  <th>% / CGPA</th> <th> Year of completion </th>
+              </tr>
+              <tr>
+                <td>Undergraduate (B.Tech)</td> <td>Indian Institute of Technology, Madras</td> <td>9.08*</td> <td>2013</td>
+              </tr>
+              <tr>
+                <td>XII</td> <td>P. S. Sr. Secondary School</td> <td>96.6%</td> <td>2009</td>
+              </tr>
+              <tr>
+                <td>X</td> <td>Jawahar Vidyalaya Sr. Secondary School</td> <td>96.2%</td> <td>2007</td>
+              </tr>
+            </table>
+            <i><small>* - CGPA upto 6th semester.</small></i>
+          </section>
+          <hr class="separator" />
+          <section id="acadAchievements">
+            <h3>Scholastic Achievements</h3>
+            <table class="table table-bordered">
+              <tr>
+                <td>1</td> <td>Awarded the Singapore Technologies Scholarship for outstanding overall performance in the freshman year.</td> <td>2010</td>
+              </tr>
+              <tr>
+                <td>2</td> <td>Qualified for and attended the International Olympiad in Informatics Training Camp (IOITC) conducted by IARCS. One among the top 28 students selected from the Nation.</td> <td>2009</td>
+              </tr>
+              <tr>
+                <td>3</td> <td>Qualified for and attended the International Chemistry Olympiad Training Camp (IChO TC) conducted by HBCSE. One among the top 35 students selected from the Nation.</td> <td>2009</td>
+              </tr>
+              <tr>
+                <td>4</td> <td>All India Rank 368 in IIT JEE 2009.</td> <td>2009</td>
+              </tr>
+              <tr>
+                <td>5</td> <td>All India Rank 126 in AIEEE 2009; State rank 5 in the same.</td> <td>2009</td>
+              </tr>
+              <tr>
+                <td>6</td> <td>Qualified in Regional Mathematics Olympiad.</td> <td>2008</td>
+              </tr>
+              <tr>
+                <td>7</td> <td>Qualified for Indian National Olympiad in Informatics.</td> <td>2008</td>
+              </tr>
+            </table>
+          </section>
+          <hr class="separator" />
+          <section id="research">
+            <h3>Research experience</h3>
+            <ul>
+              <li>
+                <h4>2011: Internship at GE (General Electric) Global Research Center, John F. Welch Technology Center, Bangalore, India</h4>
                 <ul>
-                  <li> Control theory </li>
-                  <li> Swarm theory </li>
-                  <li> Autonomous unmanned vehicles </li>
-                  <li> Sustainable design </li>
-                  <li> Dynamics and stabilization</li>
+                  <li>
+                    Developed a ray tracing algorithm for isotropic homogeneous material, and modelled the same on the cross section of a circular pipe.
+                  </li>
+                  <li>
+                    Developed a 3D Visualization tool in C++ and OpenGL to represent the amplitude and Time of Flight information onto the actual inspection geometry.
+                  </li>
+                  <li>
+                    Combined data from several data channels to accurately determine the location of defects within the weld geometry.
+                  </li>
                 </ul>
-            </div>
-            <div class="span4">
-              <img src="bootstrap/img/me.jpg" class="img-circle" />
-            </div>
-          </div>
+              </li>
+            </ul>
+          </section>
         </div>
       </div>
     </div>
