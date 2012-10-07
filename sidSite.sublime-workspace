@@ -71,7 +71,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 3856,
+				"buffer_size": 3871,
 				"line_ending": "Unix"
 			}
 		},
@@ -79,7 +79,7 @@
 			"file": "resume.html",
 			"settings":
 			{
-				"buffer_size": 4993,
+				"buffer_size": 5068,
 				"line_ending": "Unix"
 			}
 		},
@@ -217,15 +217,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 3856,
+						"buffer_size": 3871,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1602,
-								1602
+								1067,
+								1067
 							]
 						],
 						"settings":
@@ -235,7 +235,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 416.0,
+						"translation.y": 110.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -245,15 +245,15 @@
 					"file": "resume.html",
 					"settings":
 					{
-						"buffer_size": 4993,
+						"buffer_size": 5068,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1285,
-								1285
+								773,
+								773
 							]
 						],
 						"settings":
@@ -263,7 +263,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 51.0,
+						"translation.y": 50.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -280,13 +280,15 @@
 						"selection":
 						[
 							[
-								263,
-								263
+								307,
+								307
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
