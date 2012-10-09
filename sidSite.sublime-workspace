@@ -71,7 +71,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 3871,
+				"buffer_size": 3918,
 				"line_ending": "Unix"
 			}
 		},
@@ -79,7 +79,7 @@
 			"file": "resume.html",
 			"settings":
 			{
-				"buffer_size": 5068,
+				"buffer_size": 5053,
 				"line_ending": "Unix"
 			}
 		},
@@ -209,7 +209,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -217,15 +217,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 3871,
+						"buffer_size": 3918,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1067,
-								1067
+								3683,
+								3683
 							]
 						],
 						"settings":
@@ -235,7 +235,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 110.0,
+						"translation.y": 51.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -245,15 +245,15 @@
 					"file": "resume.html",
 					"settings":
 					{
-						"buffer_size": 5068,
+						"buffer_size": 5053,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								773,
-								773
+								3431,
+								3431
 							]
 						],
 						"settings":
@@ -263,7 +263,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 50.0,
+						"translation.y": 815.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
