@@ -79,7 +79,7 @@
 			"file": "resume.html",
 			"settings":
 			{
-				"buffer_size": 5053,
+				"buffer_size": 5022,
 				"line_ending": "Unix"
 			}
 		},
@@ -209,7 +209,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -224,8 +224,8 @@
 						"selection":
 						[
 							[
-								3683,
-								3683
+								2149,
+								2149
 							]
 						],
 						"settings":
@@ -235,7 +235,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 51.0,
+						"translation.y": 663.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -245,15 +245,15 @@
 					"file": "resume.html",
 					"settings":
 					{
-						"buffer_size": 5053,
+						"buffer_size": 5022,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3431,
-								3431
+								2312,
+								2312
 							]
 						],
 						"settings":
@@ -263,7 +263,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 815.0,
+						"translation.y": 560.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
