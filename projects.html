@@ -49,22 +49,93 @@
         <div class="span9">
           <section id="servocontrol">
             <h3>Position control of Servo via gesture recognition</h3>
-
+            <h5>Guides</h5><p>Professors Singaperumal M., Manivannan P V, and Somashekhar S, IIT Madras.<br>
+            <em>Course: Mechatronic Systems</em>
+            <h5>Abstract</h5>
+            <p>
+              The objective is to demonstrate the use of image processing systems to recognize hand gestures, and take corresponding actions.
+              Actuator control, in its simplest form, can be represented by the position control of a servo-motor.
+            </p>
+            <h5>Image processing module</h5>
+            <ul>
+              <li>Developed in C++, using <a href="http://opencv.willowgarage.com" target="_blank">OpenCV libraries</a>.</li>
+              <li>Sample gestures recognized:<br></li>
+            </ul>
+            <div class="row">
+              <div class="span3"><img src="img/hand1.png" class="img-rounded"/></div>
+              <div class="span3"><img src="img/hand2.png" class="img-rounded"/></div>
+              <div class="span3"><img src="img/hand3.png" class="img-rounded"/></div>
+            </div>
+            <br>
+            <ul>
+              <li>Kalman filter used for noise elimination and to predict the position of the hand in the next frame.</li>
+              <li>CAMShift (Continuously Adaptive Meanshift) used for adaptive region-sizing.</li>
+            </ul>
+            <h5>Electronics</h5>
+            <div class="row">
+              <div class="span6">
+                <ul>
+                  <li>The code was interfaced with an <a href="http://arduino.cc">Arduino</a> via Serial Communication by using <a href="http://libserial.sourceforge.net/">libSerial</a>.</li>
+                  <li>Pulse-Width-Modulated (PWM) signals were used to control the position of the servomotor.</li>
+                </ul>
+                <br>
+                <table class="table table-bordered table-hover">
+                  <tr><td>A presentation on the project can be found <a href="files/ServoControl.pdf" target="_blank">here. <i class="icon-download"></i></a></td></tr>
+                </table>
+              </div>
+              <div class="span3"><a href="http://arduino.cc"><img src="img/arduino.jpg" /></a></div>
+            </div>
           </section>
           <hr class="separator" />
           <section id="robocon">
             <h3>Autobot - Robocon 2011</h3>
-              
+            <h5>Guide</h5>
+            <p>Prof. Sandipan Bandyopadhyay, IIT Madras</p>
+            <br>
+            Designed and developed an Autonomous Robot that solves a known grid while transferring cylindrical objects as part of the problem statement of the International Robotics Competition, Robocon 2011.<br>
+            This is a video of our bot performing at the National Round in Pune, India:
+            <iframe width="640" height="360" src="http://www.youtube.com/embed/Mv6XLKwHuGg?rel=0" frameborder="0" allowfullscreen></iframe>
           </section>
           <hr class="separator" />
           <section id="watermeter">
-            <h3>Water meter using pressure transducers</h3>
-            
+            <h3>Water metering using pressure transducers</h3>
+                <h5>Guide</h5>
+                <p>Prof. T. Swaminathan, IIT Madras</p>
+                <h5>Abstract</h5>
+                <p>
+                The commercial water consumption metering solutions available in India are far from accurate, and are highly prone to damage. Moreover, the principle of operation is fluid flow with most of them using a rotating turbine with an encoder to measure flow. This means that if the water supply is inconsistent as in most places in India, the air that is clogged in the pipe is also measured. This leads to large errors, and excessive payment by consumers.</p>
+                <p>
+                The proposed alternative is to measure an alternative quantity, the hydrostatic pressure. A <em>pressure transducer</em> is used to gauge the height of the water column. The sensor response is characterized, and the cross sectional area of the tank is featured into an algorithm which then measures changes in pressure head and hence the volume of consumption.</p>
+            <div class="row">
+              <div class="span4">
+                  <img src="img/Force_Sensor.jpg" />
+              </div>
+              <div class="span5"><img src="img/meter.png" class="img-rounded"/></div>
+            </div>
+            <em>Entry to the GE Edison Challenge 2011</em>
           </section>
           <hr class="separator" />
           <section id="mlwss">
-            <h3>Smart Water Storage system</h3>
-            
+            <h3>Smart Water Management System</h3>
+            <h5>Guide</h5>
+            <p>Prof. T. Swaminathan, IIT Madras</p>
+            <h5>Abstract</h5>
+            <p>
+            One of the major contributors to urban power consumptions is pumping of water for consumption. This comes from the necessity to pump large quantities of water to the top of the building for storage in overhead tanks. However, for the lower floors of the building, this is completely unnecessary.</p>
+            <p>
+            The innovation in the proposed system lies in the fact that the water required for all the floors, need not be pumped to the overhead tanks. Instead, the water can be pumped to a storage-unit placed at every floor of the building. Every floor would utilize the water from the storage-units, installed on the floor above it. This would ensure that water pressure needs are met while the water pumping power is greatly reduced.</p>
+            <table class="table table-bordered table-hover">
+              <tr><td>
+                Proof of concept can be viewed <a href="files/Smart-Water-System.pdf" target="_blank">here. <i class="icon-download"></i></a>
+              </td></tr>
+            </table>
+            <h5>Control systems</h5>
+            <p>Control systems for a smart water management system were developed and simulated in MATLAB Simulink.</p>
+            <div class="row">
+              <img src="img/mlwss-control.png" />
+              <img src="img/mlwss-sub.png" />
+            </div>
+            <p><em>Entry to the GE Edison Challenge 2011</em>
           </section>
           <hr class="separator" />
         </div>

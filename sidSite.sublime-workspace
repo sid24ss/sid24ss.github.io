@@ -71,7 +71,15 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 3918,
+				"buffer_size": 4608,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "projects.html",
+			"settings":
+			{
+				"buffer_size": 7998,
 				"line_ending": "Unix"
 			}
 		},
@@ -79,7 +87,7 @@
 			"file": "resume.html",
 			"settings":
 			{
-				"buffer_size": 5022,
+				"buffer_size": 5156,
 				"line_ending": "Unix"
 			}
 		},
@@ -124,6 +132,7 @@
 	},
 	"file_history":
 	[
+		"/home/siddharth/Dropbox/Documents/GE Edison/GE Final Posters/Multilevel Water Storage Formulation (Autosaved).htm",
 		"/home/siddharth/sid24ss.github.com/newindex.html",
 		"/home/siddharth/sid24ss.github.com/resume.html",
 		"/home/siddharth/rc/settings.py",
@@ -209,7 +218,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -217,15 +226,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 3918,
+						"buffer_size": 4608,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2149,
-								2149
+								4302,
+								4302
 							]
 						],
 						"settings":
@@ -235,25 +244,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 663.0,
+						"translation.y": 1096.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "resume.html",
+					"file": "projects.html",
 					"settings":
 					{
-						"buffer_size": 5022,
+						"buffer_size": 7998,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2312,
-								2312
+								7500,
+								7500
 							]
 						],
 						"settings":
@@ -263,13 +272,41 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 560.0,
+						"translation.y": 2150.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
+					"file": "resume.html",
+					"settings":
+					{
+						"buffer_size": 5156,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1267,
+								1267
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 102.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
 					"file": "bootstrap/css/other.css",
 					"settings":
 					{
@@ -297,7 +334,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 4,
 					"file": "bootstrap/css/bootstrap.css",
 					"settings":
 					{
