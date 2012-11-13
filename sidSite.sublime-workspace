@@ -71,7 +71,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 4656,
+				"buffer_size": 4848,
 				"line_ending": "Unix"
 			}
 		},
@@ -79,7 +79,7 @@
 			"file": "projects.html",
 			"settings":
 			{
-				"buffer_size": 8807,
+				"buffer_size": 12736,
 				"line_ending": "Unix"
 			}
 		},
@@ -87,7 +87,23 @@
 			"file": "resume.html",
 			"settings":
 			{
-				"buffer_size": 6851,
+				"buffer_size": 6500,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "contact.html",
+			"settings":
+			{
+				"buffer_size": 3208,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "courses.html",
+			"settings":
+			{
+				"buffer_size": 5058,
 				"line_ending": "Unix"
 			}
 		},
@@ -163,6 +179,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"'",
+			"  ",
 			"data-sp",
 			"data-",
 			"affix",
@@ -207,6 +225,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			" ",
 			"DENSITY"
 		],
 		"reverse": false,
@@ -218,7 +237,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -226,15 +245,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 4656,
+						"buffer_size": 4848,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3660,
-								3660
+								1305,
+								1305
 							]
 						],
 						"settings":
@@ -244,7 +263,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1181.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -254,15 +273,15 @@
 					"file": "projects.html",
 					"settings":
 					{
-						"buffer_size": 8807,
+						"buffer_size": 12736,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4898,
-								4898
+								1323,
+								1323
 							]
 						],
 						"settings":
@@ -272,7 +291,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1784.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -282,15 +301,15 @@
 					"file": "resume.html",
 					"settings":
 					{
-						"buffer_size": 6851,
+						"buffer_size": 6500,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4519,
-								4519
+								2696,
+								2696
 							]
 						],
 						"settings":
@@ -300,13 +319,69 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 322.0,
+						"translation.y": 561.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
+					"file": "contact.html",
+					"settings":
+					{
+						"buffer_size": 3208,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3090,
+								3090
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 663.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "courses.html",
+					"settings":
+					{
+						"buffer_size": 5058,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4904,
+								4904
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1564.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
 					"file": "bootstrap/css/other.css",
 					"settings":
 					{
@@ -334,7 +409,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 6,
 					"file": "bootstrap/css/bootstrap.css",
 					"settings":
 					{
