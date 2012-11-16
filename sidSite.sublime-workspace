@@ -71,7 +71,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 4848,
+				"buffer_size": 4855,
 				"line_ending": "Unix"
 			}
 		},
@@ -79,7 +79,15 @@
 			"file": "projects.html",
 			"settings":
 			{
-				"buffer_size": 12736,
+				"buffer_size": 14289,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/siddharth/Dropbox/Resume/AppFormat/resume.tex",
+			"settings":
+			{
+				"buffer_size": 15861,
 				"line_ending": "Unix"
 			}
 		},
@@ -148,6 +156,7 @@
 	},
 	"file_history":
 	[
+		"/home/siddharth/Dropbox/Resume/AppFormat/resume.tex",
 		"/home/siddharth/Dropbox/Documents/GE Edison/GE Final Posters/Multilevel Water Storage Formulation (Autosaved).htm",
 		"/home/siddharth/sid24ss.github.com/newindex.html",
 		"/home/siddharth/sid24ss.github.com/resume.html",
@@ -179,6 +188,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"ge.com",
+			"quot",
 			"'",
 			"  ",
 			"data-sp",
@@ -237,7 +248,7 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -245,15 +256,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 4848,
+						"buffer_size": 4855,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1305,
-								1305
+								3379,
+								3379
 							]
 						],
 						"settings":
@@ -263,7 +274,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 918.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -273,15 +284,15 @@
 					"file": "projects.html",
 					"settings":
 					{
-						"buffer_size": 12736,
+						"buffer_size": 14289,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1323,
-								1323
+								10551,
+								10551
 							]
 						],
 						"settings":
@@ -291,13 +302,41 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2983.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
+					"file": "/home/siddharth/Dropbox/Resume/AppFormat/resume.tex",
+					"settings":
+					{
+						"buffer_size": 15861,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11506,
+								11506
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4071.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
 					"file": "resume.html",
 					"settings":
 					{
@@ -325,7 +364,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 4,
 					"file": "contact.html",
 					"settings":
 					{
@@ -353,7 +392,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 5,
 					"file": "courses.html",
 					"settings":
 					{
@@ -375,13 +414,13 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1564.0,
+						"translation.y": 1292.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 6,
 					"file": "bootstrap/css/other.css",
 					"settings":
 					{
@@ -409,7 +448,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 7,
 					"file": "bootstrap/css/bootstrap.css",
 					"settings":
 					{
