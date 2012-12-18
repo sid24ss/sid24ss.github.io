@@ -67,70 +67,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 4855,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "projects.html",
-			"settings":
-			{
-				"buffer_size": 14289,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/siddharth/Dropbox/Resume/AppFormat/resume.tex",
-			"settings":
-			{
-				"buffer_size": 15861,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resume.html",
-			"settings":
-			{
-				"buffer_size": 6500,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "contact.html",
-			"settings":
-			{
-				"buffer_size": 3208,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "courses.html",
-			"settings":
-			{
-				"buffer_size": 5058,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "bootstrap/css/other.css",
-			"settings":
-			{
-				"buffer_size": 912,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "bootstrap/css/bootstrap.css",
-			"settings":
-			{
-				"buffer_size": 118128,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -156,11 +92,17 @@
 	},
 	"file_history":
 	[
+		"/home/siddharth/rc/settings.py",
+		"/home/siddharth/sid24ss.github.com/bootstrap/css/bootstrap.css",
+		"/home/siddharth/sid24ss.github.com/bootstrap/css/other.css",
+		"/home/siddharth/sid24ss.github.com/courses.html",
+		"/home/siddharth/sid24ss.github.com/contact.html",
+		"/home/siddharth/sid24ss.github.com/resume.html",
+		"/home/siddharth/sid24ss.github.com/projects.html",
+		"/home/siddharth/sid24ss.github.com/index.html",
 		"/home/siddharth/Dropbox/Resume/AppFormat/resume.tex",
 		"/home/siddharth/Dropbox/Documents/GE Edison/GE Final Posters/Multilevel Water Storage Formulation (Autosaved).htm",
 		"/home/siddharth/sid24ss.github.com/newindex.html",
-		"/home/siddharth/sid24ss.github.com/resume.html",
-		"/home/siddharth/rc/settings.py",
 		"/home/siddharth/Dropbox/Code/Cpp/CompSim-Snake-and-ladder.cpp",
 		"/home/siddharth/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
 		"/home/siddharth/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
@@ -248,233 +190,8 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "index.html",
-					"settings":
-					{
-						"buffer_size": 4855,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3379,
-								3379
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 918.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "projects.html",
-					"settings":
-					{
-						"buffer_size": 14289,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								10551,
-								10551
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2983.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/home/siddharth/Dropbox/Resume/AppFormat/resume.tex",
-					"settings":
-					{
-						"buffer_size": 15861,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								11506,
-								11506
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 4071.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "resume.html",
-					"settings":
-					{
-						"buffer_size": 6500,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2696,
-								2696
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 561.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "contact.html",
-					"settings":
-					{
-						"buffer_size": 3208,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3090,
-								3090
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 663.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "courses.html",
-					"settings":
-					{
-						"buffer_size": 5058,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4904,
-								4904
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1292.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "bootstrap/css/other.css",
-					"settings":
-					{
-						"buffer_size": 912,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								307,
-								307
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "bootstrap/css/bootstrap.css",
-					"settings":
-					{
-						"buffer_size": 118128,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
