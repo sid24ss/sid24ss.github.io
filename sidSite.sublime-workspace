@@ -67,6 +67,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "projects.html",
+			"settings":
+			{
+				"buffer_size": 15147,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -130,6 +138,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Walking",
 			"ge.com",
 			"quot",
 			"'",
@@ -190,8 +199,37 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "projects.html",
+					"settings":
+					{
+						"buffer_size": 15147,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3008,
+								3008
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 994.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
